@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Risk Assessment </title>
+
+</head>
+
+<body>
+
+
+    <form action = "http://localhost:5000/test_row" method = "post" target="_blank">
+        <br>
+        <b>Input patient data:</b><br>
+        <br>
+        Gender  :<br>
+        <select name="gen">
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+        </select>
+        <br>
+        Age       :<br> <input type="text" name="Age" value=><br>
+        <br>
+        current Smoker      :<br>
+        <select name="smok">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+        <br>
+
+        cigerates per Day   :<br>  <input type="text" name="cpd" value=><br>
+
+        Blood Pressure Medications  :<br>
+        <select name="BPM">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+        <br>
+
+        Prevalent Stroke :<br>
+        <select name="BS">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+        <br>
+
+
+        History of high blood pressure :<br>
+        <select name="HBP">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+        <br>
+
+        Have diabetes :<br>
+        <select name="D">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+        <br>
+
+        Total cholorestrol :<br>  <input type="text" name="TC" value=><br>
+
+        Systolic Blood pressure :<br>  <input type="text" name="sbp" value=><br>
+
+        Diastolic Blood pressure :<br>  <input type="text" name="dbp" value=><br>
+
+        Body Mass index :<br>  <input type="text" name="BMI" value=><br>
+        Heart Rate	:<br>  <input type="text" name="HR" value=><br>
+        Glucose 	:<br>  <input type="text" name="G" value=><br>
+        {{name[0]}}
+        <input type="submit" value="Results"> <br>
+
+    </form>
+
+</body>
+</html>
